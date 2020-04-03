@@ -1,2 +1,0 @@
-# FeyyazWT
-Web Teknolojileri Proje
