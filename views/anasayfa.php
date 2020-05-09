@@ -1,40 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Feyyaz Mert Ereren</title>
-    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/custom/style.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
-</head>
-<body>
-
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a href="index.html" class="navbar-brand">
-        <img src="assets/img/logo.png"/></a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav">
-            <a href="views/hakkimda.html" class="nav-item nav-link">Hakkımda</a>
-            <a href="views/cv.html" class="nav-item nav-link">CV</a>
-            <a href="views/sehir.html" class="nav-item nav-link">Şehrim</a>
-            <a href="views/takim.html" class="nav-item nav-link">Takımımız</a>
-            <a href="views/iletisim.html" class="nav-item nav-link">İletişim</a>
-        </div>
-        <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="iletisim.html">
-                <i class="far fa-comment-alt popmessage" data-container="body" data-toggle="popover"
-                   data-placement="bottom" data-content="İletişim"> </i>
-            </a>
-        </div>
-    </div>
-</nav>
-
-
 <div class="pfl-wrapper">
     <article>
         <div class="profile-photo"></div>
@@ -60,7 +23,7 @@
 
     <div class="row">
         <div class="col-md-4 col-sm-12">
-            <img id="myImg" src="assets/img/vodafonearena.jpg" alt="Vodafone Arena"
+            <img id="myImg" src="../assets/img/vodafonearena.jpg" alt="Vodafone Arena"
                  style="width:100%;max-width:300px; float: right">
             <div id="myModal" class="modal">
 
@@ -90,12 +53,3 @@
     <iframe class="youtubeIframe" width="560" height="315" src="https://www.youtube.com/embed/_YzYa9-PUq4"
             frameborder="0" allowfullscreen></iframe>
 </div>
-<a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
-
-
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/custom/main.js"></script>
-<script src="assets/js/custom/profile.js"></script>
-</body>
-</html>
